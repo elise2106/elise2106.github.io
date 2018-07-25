@@ -13,14 +13,19 @@ nav{
   padding: 5px;
 }
 
-.primary-navigation a{
+nav a{
   color:purple;
   padding: 20px;
   text-decoration: none;
   font-size: 20px;
+  transition: background-color 0.4s
 }
 
-.primary-navigation a.active{
+nav a:hover{
+background-color:#ffebcd
+}
+
+nav a.active{
   background-color: #ffebcd;
   display: flex;
   font-weight: bold;
@@ -29,7 +34,13 @@ nav{
 img.about{
   width: 400px;
 }
-
 img.home{
   width: 400px;
+}
+img.gif{
+  padding-top: 20px;
+}
+img.catalogue{
+  width: 480px;
+  padding-bottom: 20px;
 }
