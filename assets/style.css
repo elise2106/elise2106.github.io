@@ -1,3 +1,35 @@
 body {
-  background: tomato;
+  background: #ffebcd;
+  font-family: system-ui, sans-serif;
+}
+
+nav{
+  background-color: pink;
+  display: flex;
+}
+
+.primary-navigation {
+  background: rgba(216,191,216,0.8);
+  padding: 5px;
+}
+
+.primary-navigation a{
+  color:purple;
+  padding: 20px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.primary-navigation a.active{
+  background-color: #ffebcd;
+  display: flex;
+  font-weight: bold;
+}
+
+img.about{
+  width: 400px;
+}
+
+img.home{
+  width: 400px;
 }
