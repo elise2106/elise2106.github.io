@@ -86,4 +86,19 @@ img.gif{
   float: left;
   width: 46%;
   flex-basis: 50%;
+  position: relative;
+  transition: box-shadow 0.8s, transform 0.8s;
+}
+
+.card-link {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.card:hover{
+  box-shadow: 0 2px 0 4px purple;
+  transform: scale(1.005);
 }
