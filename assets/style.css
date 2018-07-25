@@ -3,9 +3,14 @@ body {
   font-family: system-ui, sans-serif;
 }
 
+img{
+  max-width: 100%
+}
+
 nav{
   background-color: pink;
   display: flex;
+  justify-content: space-around;
 }
 
 .primary-navigation {
@@ -33,14 +38,52 @@ nav a.active{
 
 img.about{
   width: 400px;
+  border-radius: 5px;
 }
 img.home{
   width: 400px;
+  border-radius: 5px;
 }
 img.gif{
   padding-top: 20px;
+  border-radius: 5px;
 }
 img.catalogue{
-  width: 480px;
-  padding-bottom: 20px;
+  width: 400px;
+  padding: 10px;
+  border-radius: 5px;
+}
+img.menu{
+  width: 300px;
+  border-radius: 5px;
+}
+
+img.first{
+  height: 200px;
+  border-radius: 5px;
+}
+
+img.gif{
+  width: 400px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+/* Cards */
+.cardgroup{
+  display: flex;
+  margin-left: -10px;
+  margin-right: -10px;
+}
+
+.card{
+  background: rgba(255,255,255,0.5);
+  box-shadow: 0 1px 1px purple;
+  padding: 2%;
+  margin: 1%;
+  border: solid 1px purple;
+  border-radius: 5px;
+  float: left;
+  width: 46%;
+  flex-basis: 50%;
 }
